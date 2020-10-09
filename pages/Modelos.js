@@ -24,7 +24,7 @@ export default function Modelos({ route, navigation }) {
 
   useEffect(() => {
     request(setRegister, idMarca);
-  }, []);
+  }, [idMarca]);
 
 
   return (

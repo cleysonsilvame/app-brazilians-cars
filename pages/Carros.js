@@ -20,7 +20,7 @@ export default function Carros({ route }) {
 
   useEffect(() => {
     request(setRegister, route.params);
-  }, []);
+  }, [route.params]);
 
 
   return (

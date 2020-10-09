@@ -24,7 +24,7 @@ export default function Anos({ route, navigation }) {
 
   useEffect(() => {
     request(setRegister, route.params);
-  }, []);
+  }, [route.params]);
 
 
   return (
